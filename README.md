@@ -3,6 +3,23 @@ This phase aims to establish API communication between the Vue.js frontend and D
 - API request: Vue.js will send the specific API request to Django system.
 - Reactivity to API response: Vue.js will render the data received from Django in response to the API request.
 
+![demo](./doc/Screenshot.png)
+
+## Getting started
+1. Run django sever for API
+
+Open the terminal and run the following comamnds:
+```bash
+python manage.py runserver
+```
+
+2. Run vue server for frontend
+
+Open other terminal and run the following command:
+```bash
+npm run dev
+```
+
 ## References
 django-vue: https://qiita.com/ryo-keima/items/aaa3f65524241a418fc9
 
