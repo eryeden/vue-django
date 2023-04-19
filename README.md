@@ -26,6 +26,27 @@ django-vue: https://qiita.com/ryo-keima/items/aaa3f65524241a418fc9
 
 ## Project memo
 
+### Environment construction
+- vue project
+
+```bash
+npm init vue@latest
+cd vue-firebase-auth-ui/
+npm install
+npm install firebaseui
+```
+
+- django project
+```bash
+pyenv local 3.10.11
+python -m venv .venv
+poetry init
+poetry shell
+poetry add djangorestframework
+django-admin startproject django_api .
+```
+
+
 ### Dev server config
 Based on the reference website, the devServer configuration should look like this:
 ```js
